@@ -1,0 +1,21 @@
+@import url('http://fonts.googleapis.com/css?family=Roboto');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body, #app{
+    height: 100%;
+}
+#app {
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1;
+}
