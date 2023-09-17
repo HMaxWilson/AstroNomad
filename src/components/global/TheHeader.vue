@@ -12,6 +12,7 @@
             <li class="px-3 py-1 hover:font-bold"><a href="/">Home</a></li>
             <li class="px-3 py-1 hover:font-bold"><a href="/about">About</a></li>
             <li class="px-3 py-1 hover:font-bold"><a href="/services">Services</a></li>
+            <li class="px-3 py-1 hover:font-bold"><a href="/contact">Contact</a></li>
           </ul>
         </nav>
       </div>
