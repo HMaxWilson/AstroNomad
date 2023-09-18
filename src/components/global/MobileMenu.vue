@@ -1,7 +1,7 @@
 <template>
   <div class="flex sm:hidden my-auto">
-    <span class="wrapper cursor-pointer text-2xl">
-      <div class="icon nav-icon z-50" :class="{ 'open' : !mobileMenuClosed }" @click="toggleMobileMenu">
+    <span class="cursor-pointer text-2xl">
+      <div class="icon nav-icon z-50 align-middle" :class="{ 'open' : !mobileMenuClosed }" @click="toggleMobileMenu">
         <span></span>
         <span></span>
         <span></span>

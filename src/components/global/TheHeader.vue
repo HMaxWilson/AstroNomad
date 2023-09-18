@@ -1,8 +1,8 @@
 <template>
   <header class="text-gray-300">
     <div class="container mx-auto py-4 px-4">
-      <div class="w-full flex col-span-1 sm:col-span-2 lg:col-span-2 justify-between">
-        <RouterLink to="/">
+      <div class="w-full flex justify-between">
+        <RouterLink to="/" class="my-auto">
           <h2 class="block text-2xl font-medium my-auto">
             Astro<span class="font-bold">Nomad</span>
           </h2>
