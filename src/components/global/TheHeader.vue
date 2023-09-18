@@ -7,15 +7,17 @@
             Astro<span class="font-bold">Nomad</span>
           </h2>
         </RouterLink>
-        <nav class="my-auto">
-          <ul class="flex flex-wrap justify-center sm:justify-end text-sm font-medium leading-5">
-            <li class="px-3 py-1 hover:font-bold"><RouterLink to="/">Home</RouterLink></li>
-            <li class="px-3 py-1 hover:font-bold"><RouterLink to="/about">About</RouterLink></li>
-            <li class="px-3 py-1 hover:font-bold"><RouterLink to="/services">Services</RouterLink></li>
-            <li class="px-3 py-1 hover:font-bold"><RouterLink to="/contact">Contact</RouterLink></li>
-          </ul>
-        </nav>
+
+
+        <HeaderNavigation />
+        <MobileMenu />
+
       </div>
     </div>
   </header>
 </template>
+
+<script setup>
+import HeaderNavigation from "@/components/global/HeaderNavigation.vue";
+import MobileMenu from "@/components/global/MobileMenu.vue";
+</script>
