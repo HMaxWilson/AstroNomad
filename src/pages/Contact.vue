@@ -1,5 +1,5 @@
 <template>
-  <div class="p-4 bg-[#00000050] rounded-xl w-1/2 mx-auto">
+  <div class="p-4 text-[#f2f6f8] bg-[#5b5e5f26] rounded-lg border border-[#5b5e5f26] shadow w-1/2 mx-auto">
     <h1 class="text-gray-300">Contact Us</h1>
     <form accept-charset="UTF-8" action="https://www.formbackend.com/f/b749cbfa9f170be9" method="POST">
       <div class="form-fields">
@@ -17,7 +17,7 @@
         <textarea class="bg-gray-300" id="message" name="message" required></textarea>
       </div>
 
-      <button class="text-gray-300" type="submit">Send message</button>
+      <button class="bg-gray-800 text-gray-300" type="submit">Send message</button>
     </form>
   </div>
 </template>

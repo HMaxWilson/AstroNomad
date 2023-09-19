@@ -14,11 +14,11 @@
       </div>
     </span>
 
-    <div class="gradient-background flex text-gray-300 fixed text-left top-0 right-0 ease-in-out duration-700 w-full"
+    <div class="flex text-gray-300 fixed text-left top-0 right-0 ease-in-out duration-700 w-full"
          :class="{ 'translate-x-full' : mobileMenuClosed }"
     >
       <div class="w-1/5" @click="toggleMobileMenu"></div>
-      <div class="w-4/5 p-4 pt-12">
+      <div class="gradient-background w-4/5 p-4 pt-12">
         <ul class="flex flex-col text-4xl gap-5 font-normal">
           <li><RouterLink class="hover:font-bold" @click="toggleMobileMenu" to="/">Home</RouterLink></li>
           <li><RouterLink class="hover:font-bold" @click="toggleMobileMenu" to="/about">About</RouterLink></li>
