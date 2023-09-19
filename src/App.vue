@@ -7,7 +7,7 @@ import Footer from './components/global/TheFooter.vue'
 <template>
   <Header />
 
-  <main class="container mx-auto text-gray-300 text-center">
+  <main class="container mx-auto text-gray-300 text-center px-2">
     <RouterView />
   </main>
 

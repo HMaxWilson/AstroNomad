@@ -1,5 +1,5 @@
 <template>
-  <header class="text-gray-300">
+  <header class="text-gray-300 z-31">
     <div class="container mx-auto py-4 px-4">
       <div class="w-full flex justify-between">
         <RouterLink to="/" class="my-auto">
@@ -10,7 +10,7 @@
 
 
         <HeaderNavigation />
-        <MobileMenu />
+        <MobileMenu class="z-30" />
 
       </div>
     </div>
