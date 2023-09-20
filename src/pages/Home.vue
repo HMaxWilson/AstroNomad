@@ -2,8 +2,10 @@
   <div>
     <h1 class="text-4xl">Bring Your Business Online</h1>
 
-    <div class="">
-
-    </div>
+    <Slider />
   </div>
 </template>
+
+<script setup>
+import Slider from "@/components/home/Slider.vue";
+</script>
