@@ -20,17 +20,17 @@ import {ref} from "vue";
       </div>
 
       <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
-        <ServiceCard title="Development">
+        <ServiceCard title="Development" showAltNote="true" altNote="Product-based Pricing">
           If you already have a design to hand, our team can seamlessly translate it into a fully functional website.
           Beyond this, we offer comprehensive web development solutions covering a wide spectrum of technologies and
           frameworks. With our extensive experience, we stand ready to meet all your web development needs, ensuring
           your online presence is both visually appealing and technically robust.
         </ServiceCard>
-        <ServiceCard title="Maintenance" :showAnnually="showAnnually" showPriceNote="true" priceMonthly="£100" priceAnnually="£85">
+        <ServiceCard title="Maintenance" :showAnnually="showAnnually" showPriceNote="true" priceMonthly="£50" priceAnnually="£40">
           Running a busy business? Let us take care of your website maintenance and security. With our expertise,
           we ensure your site stays up to date and secure, allowing you to concentrate on your core business operations.
         </ServiceCard>
-        <ServiceCard title="Design">
+        <ServiceCard title="Design" showAltNote="true" altNote="Product-based Pricing">
           If you need a website we create tailored online solutions from scratch or revamp existing sites.
           Our expertise ensures a strong online presence that aligns with your brand and goals.
           Let's bring your vision to life.
