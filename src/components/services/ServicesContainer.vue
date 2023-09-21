@@ -7,11 +7,10 @@ import {ref} from "vue";
 
 <template>
   <div class="services-container">
-    <div class="mx-auto max-w-screen-xl py-8">
+    <div class="mx-auto max-w-screen-xl py-4">
         <div class="flex justify-center">
           <p class="mr-2 my-auto">Monthly</p>
           <label class="switch">
-            <p class="relative -top-5 pointer-events-none text-sm text-gray-400">Pay</p>
             <input type="checkbox" v-model="showAnnually">
             <span class="slider round"></span>
           </label>
