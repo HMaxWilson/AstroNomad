@@ -1,11 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Ysabeau+SC:wght@1..1000&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+.material-symbols-outlined {
+    font-variation-settings:
+            'FILL' 0,
+            'GRAD' 0,
+            'opsz' 36
+}
+
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.header-font {
+    font-family: 'Ysabeau SC', sans-serif !important;
 }
 
 html, body, #app{
@@ -18,24 +30,4 @@ html, body, #app{
 
 main{
     flex: 1;
-}
-
-body,
-.gradient-background {
-    background: linear-gradient(-45deg, #040404, #141530, #14140C, #210535);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    height: 100vh;
-}
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
 }

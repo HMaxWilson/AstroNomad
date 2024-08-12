@@ -18,7 +18,7 @@
          :class="{ 'translate-x-full' : mobileMenuClosed }"
     >
       <div class="w-1/5" @click="toggleMobileMenu"></div>
-      <div class="gradient-background w-4/5 p-4 pt-12">
+      <div class="light-gradient-background dark:dark-gradient-background w-4/5 p-4 pt-12">
         <ul class="flex flex-col text-4xl gap-5 font-normal">
           <li><RouterLink class="hover:font-bold" @click="toggleMobileMenu" to="/">Home</RouterLink></li>
           <li><RouterLink class="hover:font-bold" @click="toggleMobileMenu" to="/about">About</RouterLink></li>
